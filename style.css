@@ -201,7 +201,7 @@ header ul a:hover{
 .gojo{
     position: absolute;
     right: 5%;
-    height: 800px;
+    height: 600px;
     mix-blend-mode: lighten;
 }
 
@@ -223,3 +223,46 @@ header ul a:hover{
     }
 }
 
+
+@media  screen and (max-width: 1000px) {
+    .v video{
+        margin-top: -20%;
+    }
+
+    .main .info h1{
+        font-size: 40px;
+        max-width: 400px;
+    }
+
+    .main .info p{
+        max-width:300px
+    }
+
+    .hero img{
+        height:400px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    header ul{
+        display: none;
+    }
+
+    .v video{
+        margin-top: -11%;
+    }
+
+    .main{
+        flex-direction: column;
+    }
+
+    .main .info{
+        bottom:10px;
+    }
+
+    .main img{
+        height: 200px;
+        right: 100px;
+        top: 70px;
+    }
+}
